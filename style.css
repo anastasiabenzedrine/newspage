@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url(https://images.unsplash.com/photo-1586504498735-f144442cbf80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1478&q=80) bottom no-repeat;
+    background-size: cover;
+    border: 3px solid rgb(167, 150, 167);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(253, 193, 202, 0.993);
+    font-size: 5rem;
+    font-family: 'Mistral', cursive;
+}
+.hot::before {
+    content: "NEW! ";
+    color: red;
+}
+.copyright {
+    color: rgb(1, 0, 3);
+    font-family: 'Times New Roman', Times, serif;
+}
+.news {
+    background-color: rgba(253, 193, 202, 0.993);
+    padding: 50px 0 32px;
+}
+article {
+    width: 768px;
+    margin: 0  auto 32px;
+    padding: 6px 15px;
+    border-bottom: 2px solid rgb(93, 77, 95);
+}
+article a {
+    color: rgb(15, 1, 9);
+    text-decoration: olivedrab;
+}
+article a:hover {
+    color: slategrey;
+}
+article:nth-child(even) {
+    background-color: palevioletred;
+}
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+.article-meta {
+    color: rgb(15, 1, 9);
+    margin-bottom: 5px;    
+}
+article img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+p {
+    font-family: 'Bradley Hand', cursive;
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .links > a {
+    color: rgb(15, 1, 9);
+    padding: 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
